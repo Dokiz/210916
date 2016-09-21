@@ -18,3 +18,9 @@ for ($i=0,$x=0; $x<16; $x++){
 </tr>
 <?}?>
 </table>
+<?php
+$str=" TEST";
+echo trim ($str);
+echo ltrim ($str);
+echo chop ($str);
+?>
